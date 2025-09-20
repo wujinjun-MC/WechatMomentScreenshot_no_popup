@@ -5,8 +5,8 @@ Docker本地部署，**我不要弹窗**!
 <img width="1048" height="487" alt="image" src="https://github.com/user-attachments/assets/971e45c3-34bc-4f58-b9c3-10d4db648bf1" />
 
 原理:
-1. `main.js` 移除弹窗函数和调用
-2. `index.html` 和 `index.src.html` 使用本地的`main.min.js` (`main.js`功能不全，直接使用会报错。原作者实际未完全开源?)
+1. `main.js` 移除 2个 弹窗函数和调用
+2. `index.html` 和 `index.src.html` 移除 1个 弹窗 + 使用[提取的](https://cdn.jsdelivr.net/combine/npm/html2canvas@1/dist/html2canvas.min.js)`main.min.js` (`main.js`功能不全，直接使用会报错。原作者实际**未完全开源**?)
 
 > ⚠️Fork 不是收藏，请勿在贡献代码以外的情况下 Fork！
 
